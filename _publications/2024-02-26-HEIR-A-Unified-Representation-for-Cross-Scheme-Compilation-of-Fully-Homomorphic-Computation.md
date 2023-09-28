@@ -5,5 +5,5 @@ permalink: /publication/2024-02-26-HEIR-A-Unified-Representation-for-Cross-Schem
 date: 2024-02-26
 venue: 'The Network and Distributed System Security Symposium (NDSS)'
 authors: Song Bian, Zian Zhao, Zhou Zhang, Ran Mao, Kohei Suenaga, Yier Jin, Zhenyu Guan, and Jianwei Liu
-paperurl: 'to appear'
+paperurl: https://eprint.iacr.org/2023/1445
 ---
