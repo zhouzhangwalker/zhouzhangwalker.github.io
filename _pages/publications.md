@@ -24,7 +24,7 @@ author_profile: true
 **2023**
   
   * [HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption](https://eprint.iacr.org/2023/1446)
-     * Song Bian^1, **Zhou Zhang^1**, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, and Zhenyu Guan
+     * Song Bian<sup>1</sup>, **Zhou Zhang<sup>1</sup>**, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, and Zhenyu Guan
      * ACM Conference on Computer and Communications Security, _ACM CCS 2023_
 
   * [DeepMIH: Deep Invertible Network for Multiple Image Hiding](https://ieeexplore.ieee.org/abstract/document/9676416)
