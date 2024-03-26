@@ -16,7 +16,8 @@ author_profile: true
 {% endfor %} -->
 
 **2024**
-  ** [AutoHoG: Automating Homomorphic Gate Design for Large-Scale Logic Circuit Evaluation](https://ieeexplore.ieee.org/document/10413195)
+
+  *[AutoHoG: Automating Homomorphic Gate Design for Large-Scale Logic Circuit Evaluation](https://ieeexplore.ieee.org/document/10413195)
      * Zhenyu Guan, Ran Mao, Qianyun Zhang, **Zhou Zhang**, Zian Zhao, and Song Bian
      * IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, _TCAD 2024_
   
