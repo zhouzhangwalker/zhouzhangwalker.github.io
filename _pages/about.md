@@ -10,8 +10,11 @@ redirect_from:
 
 I am a PH.D. student at the [School of Cyber Science and Technology](http://cst.buaa.edu.cn/) of [Beihang University](https://www.buaa.edu.cn). My research mainly focuses on privacy-preserving computations and applied cryptography, such as fully homomorphic encryption (FHE). I enjoy the theoretical algorithms and the practical applications of advanced cryptographic primitives to build solutions for diverse privacy-preserving computation tasks.
 
-## Latest Updates
+## Publications
  
-  * Our paper titled [HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption](https://eprint.iacr.org/2023/1446) was awarded the _CCS 2023 Distinguished Paper Award_.
-  * Our paper titled [HEIR: A Unified Representation for Cross-Scheme Compilation of Fully Homomorphic Computation](https://eprint.iacr.org/2023/1445) appeared in _NDSS 2024_.
-  * Our paper titled [HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption](https://eprint.iacr.org/2023/1446) appeared in _CCS 2023_.
+  * **Zhou Zhang**, Song Bian, Zian Zhao, Ran Mao, Haoyi Zhou, Jiafeng Hua, Yier Jin, and Zhenyu Guan, ArcEDB: An Arbitrary-Precision Encrypted Database via (Amortized) Modular Homomorphic Encryption, ACM Conference on Computer and Communications Security (CCS), October 2024.
+  * Luchang Lei, Yongqing Zhu, Xinhang Zou, Yifan He, **Zhou Zhang**, Zhenyu Guan, Huazhong Yang, Yongpan Liu, Song Bian, and Hongyang Jia, An eDRAM-Based In-Situ-Computing Processor for Homomorphic Encryption Evaluation on the Edge, European Solid-State Electronics Research Conference (ESSERC), September 2024 (to appear).
+  * Song Bian, Zian Zhao, **Zhou Zhang**, Ran Mao, Kohei Suenaga, Yier Jin, Zhenyu Guan, and Jianwei Liu, HEIR: A Unified Representation for Cross-Scheme Compilation of Fully Homomorphic Computation, Network and Distributed System Security Symposium (NDSS), February 2024.
+  * Zhenyu Guan, Ran Mao, Qianyun Zhang, **Zhou Zhang**, Zian Zhao, and Song Bian, AutoHoG: Automating Homomorphic Gate Design for Large-Scale Logic Circuit Evaluation, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, January 2024.
+  * Song Bian, **Zhou Zhang**, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, and Zhenyu Guan, HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption, ACM Conference on Computer and Communications Security (CCS), November 2023 (Distinguished Paper Award!).
+  * Zhenyu Guan, Junpeng Jing, Xin Deng, Mai Xu, Lai Jiang, **Zhou Zhang**, Yipeng Li, DeepMIH: Deep Invertible Network for Multiple Image Hiding, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI 2023), January 2023. [[pdf]](https://ieeexplore.ieee.org/abstract/document/9676416)
