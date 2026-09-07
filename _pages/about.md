@@ -10,12 +10,9 @@ redirect_from:
 
 <section class="home-hero" id="about">
   <div class="eyebrow">About me</div>
-  <p class="hero-lead">I am a fourth-year Ph.D. student at the School of Cyber Science and Technology, Beihang University, advised by Zhenyu Guan and Song Bian<.</p>
+  <p class="hero-lead">I am a fourth-year Ph.D. student at the School of Cyber Science and Technology, Beihang University, advised by Zhenyu Guan and Song Bian.</p>
   <p class="hero-lead">My research focuses on building practical technologies for computing over private data, including fully homomorphic encryption, encrypted databases, and private information retrieval. I am particularly interested in the algorithms, compilers, and systems that make these cryptographic tools efficient and useful in real-world applications.</p>
 
-  <div class="button-row">
-    <a class="btn btn--light" href="{{ '/files/cv.pdf' | relative_url }}">Download CV</a>
-  </div>
 </section>
 
 <section class="home-section" id="publications">
@@ -84,7 +81,7 @@ redirect_from:
   <ul class="talks-list">
     {% for post in site.talks reversed %}
       <li>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <h3>{{ post.title }}</h3>
         <p class="resource-meta">{{ post.type }} · {{ post.venue }} · {{ post.location }} · {% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
         {% if post.excerpt %}<p>{{ post.excerpt | strip_html }}</p>{% endif %}
       </li>

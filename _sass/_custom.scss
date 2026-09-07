@@ -3,8 +3,22 @@
    ======================================================================== */
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   scroll-padding-top: 5rem;
+}
+
+/* Mouse clicks should not leave a bright browser focus ring on navigation. */
+a:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Keep a clear, non-yellow focus indicator for keyboard navigation. */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #4361ee;
+  outline-offset: 3px;
 }
 
 body {
