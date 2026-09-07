@@ -1,24 +1,108 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Ph.D. student working on privacy-preserving computation"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a Ph.D. student at the [School of Cyber Science and Technology](http://cst.buaa.edu.cn/) of [Beihang University](https://www.buaa.edu.cn). My research mainly focuses on privacy-preserving computations and applied cryptography, such as fully homomorphic encryption (FHE). I enjoy the theoretical algorithms and the practical applications of advanced cryptographic primitives to build solutions for diverse privacy-preserving computation tasks.
+<section class="home-hero" id="about">
+  <div class="eyebrow">About me</div>
+  <p class="hero-lead">I am a fourth-year Ph.D. student at the School of Cyber Science and Technology, Beihang University, advised by Zhenyu Guan and Song Bian<.</p>
+  <p class="hero-lead">My research focuses on building practical technologies for computing over private data, including fully homomorphic encryption, encrypted databases, and private information retrieval. I am particularly interested in the algorithms, compilers, and systems that make these cryptographic tools efficient and useful in real-world applications.</p>
 
-## Publications
-  * **Zhou Zhang**, Ran Mao, Zian Zhao, Haowen Pan, Yunhao Fu, Yizhong Liu, Dawei Li, Yi Chen, Bo Zhang, Changrui Ren, Jin Dong, Zhenyu Guan, Song Bian, SPIRIT: Batch Hintless Single-Server PIR via Stateful Ciphertext Conversion. Usenix Security Symposium, August 2026.
-  * Ran Mao, **Zhou Zhang**, Zian Zhao, Zhenyu Guan, Peng Yin, Song Bian, SALUS: Large-Scale Homomorphic Circuit Synthesis via Logic-Aware LUT Optimization, IEEE Transactions on Information Forensics and Security (TIFS), January 2026. [[paper]](https://ieeexplore.ieee.org/abstract/document/11361194)
-  * Luchang Lei, Yongqing Zhu, Xinhang Zou, **Zhou Zhang**, Zian Zhao, Yifan He, Gangfeng Du, Zhenyu Guan, Huazhong Yang, Yongpan Liu, Song Bian, Hongyang Jia, Enabling Energy-Efficient Homomorphic Encryption Evaluation via eDRAM-Based In-Situ Computing in an Edge Processor, IEEE Journal of Solid State Circuits (JSSC), 2025.
-  * Song Bian, Haowen Pan, Jiaqi Hu, **Zhou Zhang**, Yunhao Fu, Jiafeng Hua, Yi Chen, Bo Zhang, Yier Jin, Jin Dong, Zhenyu Guan, Engorgio: An Arbitrary-Precision Unbounded-Size Hybrid Encrypted Database via Quantized Fully Homomorphic Encryption, USENIX Security Symposium, August 2025. [[paper]](https://eprint.iacr.org/2025/198)
-  * Song Bian, Zian Zhao, Ruiyu Shen, **Zhou Zhang**, Ran Mao, Dawei Li, Yizhong Liu, Masaki Waga, Kohei Suenaga, Zhenyu Guan, Jiafeng Hua, Yier Jin, and Jianwei Liu, CHLOE: Loop Transformation over Fully Homomorphic Encryption via Multi-Level Vectorization and Control-Path Reduction, IEEE Symposium on Security and Privacy (S&P), May 2025. [[paper]](https://eprint.iacr.org/2024/1991) [[code]](https://github.com/heir-compiler/CHLOE)
-  * **Zhou Zhang**, Song Bian, Zian Zhao, Ran Mao, Haoyi Zhou, Jiafeng Hua, Yier Jin, and Zhenyu Guan, ArcEDB: An Arbitrary-Precision Encrypted Database via (Amortized) Modular Homomorphic Encryption, ACM Conference on Computer and Communications Security (CCS), October 2024. [[paper]](https://eprint.iacr.org/2024/1064) [[code]](https://github.com/zhouzhangwalker/ArcEDB)
-  * Luchang Lei, Yongqing Zhu, Xinhang Zou, Yifan He, **Zhou Zhang**, Zhenyu Guan, Huazhong Yang, Yongpan Liu, Song Bian, and Hongyang Jia, An eDRAM-Based In-Situ-Computing Processor for Homomorphic Encryption Evaluation on the Edge, European Solid-State Electronics Research Conference (ESSERC), September 2024.
-  * Song Bian, Zian Zhao, **Zhou Zhang**, Ran Mao, Kohei Suenaga, Yier Jin, Zhenyu Guan, and Jianwei Liu, HEIR: A Unified Representation for Cross-Scheme Compilation of Fully Homomorphic Computation, Network and Distributed System Security Symposium (NDSS), February 2024. [[paper]](https://www.ndss-symposium.org/ndss-paper/heir-a-unified-representation-for-cross-scheme-compilation-of-fully-homomorphic-computation/) [[code]](https://github.com/heir-compiler/HEIR)
-  * Zhenyu Guan, Ran Mao, Qianyun Zhang, **Zhou Zhang**, Zian Zhao, and Song Bian, AutoHoG: Automating Homomorphic Gate Design for Large-Scale Logic Circuit Evaluation, IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), January 2024. [[paper]](https://ieeexplore.ieee.org/document/10413195) [[code]](https://github.com/Lavendes/AutoHog)
-  * Song Bian, **Zhou Zhang**, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, and Zhenyu Guan, HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption, ACM Conference on Computer and Communications Security (CCS), November 2023 (<font color='#FF0000'>Distinguished Paper Award!</font>). [[paper]](https://eprint.iacr.org/2023/1446) [[code]](https://github.com/zhouzhangwalker/HE3DB)
-  * Zhenyu Guan, Junpeng Jing, Xin Deng, Mai Xu, Lai Jiang, **Zhou Zhang**, Yipeng Li, DeepMIH: Deep Invertible Network for Multiple Image Hiding, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), January 2023. [[paper]](https://ieeexplore.ieee.org/abstract/document/9676416) [[code]](https://github.com/TomTomTommi/DeepMIH)
+  <div class="button-row">
+    <a class="btn btn--light" href="{{ '/files/cv.pdf' | relative_url }}">Download CV</a>
+  </div>
+</section>
+
+<section class="home-section" id="publications">
+  <h2>Publications</h2>
+  <p class="section-intro">Selected and recent publications are listed below.</p>
+
+  <ol class="publication-list">
+    <li>
+      <span class="publication-title">SPIRIT: Batch Hintless Single-Server PIR via Stateful Ciphertext Conversion</span>
+      <span class="publication-meta"><strong>Zhou Zhang</strong>, Ran Mao, Zian Zhao, Haowen Pan, Yunhao Fu, Yizhong Liu, Dawei Li, Yi Chen, Bo Zhang, Changrui Ren, Jin Dong, Zhenyu Guan, Song Bian · USENIX Security Symposium, 2026</span>
+    </li>
+    <li>
+      <span class="publication-title">SALUS: Large-Scale Homomorphic Circuit Synthesis via Logic-Aware LUT Optimization</span>
+      <span class="publication-meta">Ran Mao, <strong>Zhou Zhang</strong>, Zian Zhao, Zhenyu Guan, Peng Yin, Song Bian · IEEE Transactions on Information Forensics and Security, 2026</span>
+      <span class="publication-links"><a href="https://ieeexplore.ieee.org/abstract/document/11361194"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a></span>
+    </li>
+    <li>
+      <span class="publication-title">Enabling Energy-Efficient Homomorphic Encryption Evaluation via eDRAM-Based In-Situ Computing in an Edge Processor</span>
+      <span class="publication-meta">Luchang Lei, Yongqing Zhu, Xinhang Zou, <strong>Zhou Zhang</strong>, et al. · IEEE Journal of Solid State Circuits, 2025</span>
+    </li>
+    <li>
+      <span class="publication-title">Engorgio: An Arbitrary-Precision Unbounded-Size Hybrid Encrypted Database via Quantized Fully Homomorphic Encryption</span>
+      <span class="publication-meta">Song Bian, Haowen Pan, Jiaqi Hu, <strong>Zhou Zhang</strong>, et al. · USENIX Security Symposium, 2025</span>
+      <span class="publication-links"><a href="https://eprint.iacr.org/2025/198"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a></span>
+    </li>
+    <li>
+      <span class="publication-title">CHLOE: Loop Transformation over Fully Homomorphic Encryption via Multi-Level Vectorization and Control-Path Reduction</span>
+      <span class="publication-meta">Song Bian, Zian Zhao, Ruiyu Shen, <strong>Zhou Zhang</strong>, et al. · IEEE Symposium on Security and Privacy, 2025</span>
+      <span class="publication-links"><a href="https://eprint.iacr.org/2024/1991"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a><a href="https://github.com/heir-compiler/CHLOE"><i class="fab fa-github" aria-hidden="true"></i> Code</a></span>
+    </li>
+    <li>
+      <span class="publication-title">ArcEDB: An Arbitrary-Precision Encrypted Database via (Amortized) Modular Homomorphic Encryption</span>
+      <span class="publication-meta"><strong>Zhou Zhang</strong>, Song Bian, Zian Zhao, Ran Mao, Haoyi Zhou, Jiafeng Hua, Yier Jin, Zhenyu Guan · ACM CCS, 2024</span>
+      <span class="publication-links"><a href="https://eprint.iacr.org/2024/1064"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a><a href="https://github.com/zhouzhangwalker/ArcEDB"><i class="fab fa-github" aria-hidden="true"></i> Code</a></span>
+    </li>
+    <li>
+      <span class="publication-title">An eDRAM-Based In-Situ-Computing Processor for Homomorphic Encryption Evaluation on the Edge</span>
+      <span class="publication-meta">Luchang Lei, Yongqing Zhu, Xinhang Zou, Yifan He, <strong>Zhou Zhang</strong>, et al. · ESSERC, 2024</span>
+    </li>
+    <li>
+      <span class="publication-title">HEIR: A Unified Representation for Cross-Scheme Compilation of Fully Homomorphic Computation</span>
+      <span class="publication-meta">Song Bian, Zian Zhao, <strong>Zhou Zhang</strong>, Ran Mao, Kohei Suenaga, Yier Jin, Zhenyu Guan, Jianwei Liu · NDSS, 2024</span>
+      <span class="publication-links"><a href="https://www.ndss-symposium.org/ndss-paper/heir-a-unified-representation-for-cross-scheme-compilation-of-fully-homomorphic-computation/"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a><a href="https://github.com/heir-compiler/HEIR"><i class="fab fa-github" aria-hidden="true"></i> Code</a></span>
+    </li>
+    <li>
+      <span class="publication-title">AutoHoG: Automating Homomorphic Gate Design for Large-Scale Logic Circuit Evaluation</span>
+      <span class="publication-meta">Zhenyu Guan, Ran Mao, Qianyun Zhang, <strong>Zhou Zhang</strong>, Zian Zhao, Song Bian · IEEE TCAD, 2024</span>
+      <span class="publication-links"><a href="https://ieeexplore.ieee.org/document/10413195"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a><a href="https://github.com/Lavendes/AutoHog"><i class="fab fa-github" aria-hidden="true"></i> Code</a></span>
+    </li>
+    <li>
+      <span class="publication-title">HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption</span>
+      <span class="publication-meta">Song Bian, <strong>Zhou Zhang</strong>, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, Zhenyu Guan · ACM CCS, 2023 · <em>Distinguished Paper Award</em></span>
+      <span class="publication-links"><a href="https://eprint.iacr.org/2023/1446"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a><a href="https://github.com/zhouzhangwalker/HE3DB"><i class="fab fa-github" aria-hidden="true"></i> Code</a></span>
+    </li>
+    <li>
+      <span class="publication-title">DeepMIH: Deep Invertible Network for Multiple Image Hiding</span>
+      <span class="publication-meta">Zhenyu Guan, Junpeng Jing, Xin Deng, Mai Xu, Lai Jiang, <strong>Zhou Zhang</strong>, Yipeng Li · IEEE TPAMI, 2023</span>
+      <span class="publication-links"><a href="https://ieeexplore.ieee.org/abstract/document/9676416"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a></span>
+    </li>
+  </ol>
+</section>
+
+<section class="home-section" id="talks">
+  <h2>Talks</h2>
+  <p class="section-intro">Talks, tutorials, and conference presentations.</p>
+  <ul class="talks-list">
+    {% for post in site.talks reversed %}
+      <li>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="resource-meta">{{ post.type }} · {{ post.venue }} · {{ post.location }} · {% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
+        {% if post.excerpt %}<p>{{ post.excerpt | strip_html }}</p>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="home-section" id="teaching">
+  <h2>Teaching</h2>
+  <p class="section-intro">Teaching experience and workshops.</p>
+  <ul class="teaching-list">
+    {% for post in site.teaching reversed %}
+      <li>
+        <div>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.type }} · {{ post.venue }} · {{ post.location }} · {% if post.term %}{{ post.term }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

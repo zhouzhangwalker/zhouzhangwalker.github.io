@@ -5,15 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-<!-- {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if site.author.googlescholar %}
+  <p>You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</p>
 {% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
 
 **2024**
 
@@ -21,7 +15,7 @@ author_profile: true
      * Zhenyu Guan, Ran Mao, Qianyun Zhang, **Zhou Zhang**, Zian Zhao, and Song Bian
      * IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, _TCAD 2024_
   
-  * [HEIR: A Unified Representation for Cross-Scheme Compilation of Fully Homomorphic Computation](https://www.ndss-symposium.org/ndss-paper/heir-a-unified-representation-for-cross-scheme-compilation-of-fully-homomorphic-computation/)
+  * [HEIR: A Unified Representation for Cross-Scheme Compilation of Fully Homomorphic Computation](https://www.ndss-symposium.org/ndss-paper/heir-for-cross-scheme-compilation-of-fully-homomorphic-computation/)
      * Song Bian, Zian Zhao, **Zhou Zhang**, Ran Mao, Kohei Suenaga, Yier Jin, Zhenyu Guan, and Jianwei Liu
      * The Network and Distributed System Security Symposium, _NDSS 2024_
 
