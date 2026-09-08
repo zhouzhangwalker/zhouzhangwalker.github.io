@@ -1,7 +1,7 @@
 ---
 title: "SPIRIT: Batch Hintless Single-Server PIR via Stateful Ciphertext Conversion"
 topic: "SPIRIT"
-talk_title: "中国电子学会网络安全大会 2026"
+short_venue: "中国电子学会网安大会"
 collection: talks
 type: "Conference talk"
 permalink: /talks/2026-06-01-cese-cybersecurity-spirit

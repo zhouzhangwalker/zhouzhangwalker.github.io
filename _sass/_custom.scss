@@ -398,6 +398,17 @@ body {
     color: #77859b;
     font-size: 0.88rem;
     line-height: 1.55;
+
+    .publication-authors,
+    .publication-venue {
+      display: block;
+    }
+
+    .publication-venue {
+      margin-top: 0.18rem;
+      color: #61708a;
+      font-style: italic;
+    }
   }
 
   .publication-links {
