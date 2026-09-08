@@ -17,7 +17,6 @@ redirect_from:
 
 <section class="home-section" id="publications">
   <h2>Publications</h2>
-  <p class="section-intro">Selected and recent publications are listed below.</p>
 
   <ol class="publication-list">
     <li>
@@ -31,16 +30,16 @@ redirect_from:
     </li>
     <li>
       <span class="publication-title">Enabling Energy-Efficient Homomorphic Encryption Evaluation via eDRAM-Based In-Situ Computing in an Edge Processor</span>
-      <span class="publication-meta">Luchang Lei, Yongqing Zhu, Xinhang Zou, <strong>Zhou Zhang</strong>, et al. · IEEE Journal of Solid State Circuits, 2025</span>
+      <span class="publication-meta">Luchang Lei, Yongqing Zhu, Xinhang Zou, <strong>Zhou Zhang</strong>, Zian Zhao, Yifan He, Gangfeng Du, Zhenyu Guan, Huazhong Yang, Yongpan Liu, Song Bian, Hongyang Jia · IEEE Journal of Solid State Circuits, 2025</span>
     </li>
     <li>
       <span class="publication-title">Engorgio: An Arbitrary-Precision Unbounded-Size Hybrid Encrypted Database via Quantized Fully Homomorphic Encryption</span>
-      <span class="publication-meta">Song Bian, Haowen Pan, Jiaqi Hu, <strong>Zhou Zhang</strong>, et al. · USENIX Security Symposium, 2025</span>
+      <span class="publication-meta">Song Bian, Haowen Pan, Jiaqi Hu, <strong>Zhou Zhang</strong>, Yunhao Fu, Jiafeng Hua, Yi Chen, Bo Zhang, Yier Jin, Jin Dong, Zhenyu Guan · USENIX Security Symposium, 2025</span>
       <span class="publication-links"><a href="https://eprint.iacr.org/2025/198"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a></span>
     </li>
     <li>
       <span class="publication-title">CHLOE: Loop Transformation over Fully Homomorphic Encryption via Multi-Level Vectorization and Control-Path Reduction</span>
-      <span class="publication-meta">Song Bian, Zian Zhao, Ruiyu Shen, <strong>Zhou Zhang</strong>, et al. · IEEE Symposium on Security and Privacy, 2025</span>
+      <span class="publication-meta">Song Bian, Zian Zhao, Ruiyu Shen, <strong>Zhou Zhang</strong>, Ran Mao, Dawei Li, Yizhong Liu, Masaki Waga, Kohei Suenaga, Zhenyu Guan, Jiafeng Hua, Yier Jin, Jianwei Liu · IEEE Symposium on Security and Privacy, 2025</span>
       <span class="publication-links"><a href="https://eprint.iacr.org/2024/1991"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a><a href="https://github.com/heir-compiler/CHLOE"><i class="fab fa-github" aria-hidden="true"></i> Code</a></span>
     </li>
     <li>
@@ -50,7 +49,7 @@ redirect_from:
     </li>
     <li>
       <span class="publication-title">An eDRAM-Based In-Situ-Computing Processor for Homomorphic Encryption Evaluation on the Edge</span>
-      <span class="publication-meta">Luchang Lei, Yongqing Zhu, Xinhang Zou, Yifan He, <strong>Zhou Zhang</strong>, et al. · ESSERC, 2024</span>
+      <span class="publication-meta">Luchang Lei, Yongqing Zhu, Xinhang Zou, Yifan He, <strong>Zhou Zhang</strong>, Zhenyu Guan, Huazhong Yang, Yongpan Liu, Song Bian, Hongyang Jia · ESSERC, 2024</span>
     </li>
     <li>
       <span class="publication-title">HEIR: A Unified Representation for Cross-Scheme Compilation of Fully Homomorphic Computation</span>
@@ -77,26 +76,29 @@ redirect_from:
 
 <section class="home-section" id="talks">
   <h2>Talks</h2>
-  <p class="section-intro">Talks, tutorials, and conference presentations.</p>
-  <ul class="talks-list">
-    {% for post in site.talks reversed %}
-      <li>
-        <h3>{{ post.title }}</h3>
-        <p class="resource-meta">{{ post.type }} · {{ post.venue }} · {{ post.location }} · {% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
-        {% if post.excerpt %}<p>{{ post.excerpt | strip_html }}</p>{% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+  {% include group-by-array collection=site.talks field="topic" %}
+  {% for topic in group_names %}
+    {% assign topic_talks = group_items[forloop.index0] %}
+    <div class="talk-topic">
+      <h3>{{ topic }}</h3>
+      <ul class="talks-list">
+        {% for post in topic_talks reversed %}
+          <li>
+            <p class="resource-meta">{{ post.talk_title }} · {{ post.venue }} · {{ post.location }} · {% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
 </section>
 
 <section class="home-section" id="teaching">
   <h2>Teaching</h2>
-  <p class="section-intro">Teaching experience and workshops.</p>
   <ul class="teaching-list">
     {% for post in site.teaching reversed %}
       <li>
         <div>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <h3>{{ post.title }}</h3>
           <p>{{ post.type }} · {{ post.venue }} · {{ post.location }} · {% if post.term %}{{ post.term }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
         </div>
       </li>

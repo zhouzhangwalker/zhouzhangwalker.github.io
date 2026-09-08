@@ -11,6 +11,18 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% include group-by-array collection=site.talks field="topic" %}
+
+{% for topic in group_names %}
+  {% assign topic_talks = group_items[forloop.index0] %}
+  <section class="talk-topic">
+    <h2>{{ topic }}</h2>
+    <ul class="talks-list">
+      {% for post in topic_talks reversed %}
+        <li>
+          <p class="resource-meta">{{ post.talk_title }} · {{ post.venue }} · {{ post.location }} · {% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 {% endfor %}

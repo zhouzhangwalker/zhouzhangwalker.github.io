@@ -254,6 +254,16 @@ body {
   list-style: none;
 }
 
+.talk-topic {
+  margin-bottom: 1.3rem;
+
+  > h3 {
+    margin: 0 0 0.2rem;
+    color: #283a60;
+    font-size: 1.08rem;
+  }
+}
+
 .research-list {
   li {
     padding: 1rem 0 1rem 1.2rem;
