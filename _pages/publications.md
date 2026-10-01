@@ -22,8 +22,9 @@ author_profile: true
 **2023**
   
   * [HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption](https://dl.acm.org/doi/abs/10.1145/3576915.3616608)
-     * Song Bian<sup>1</sup>, **Zhou Zhang<sup>1</sup>**, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, and Zhenyu Guan
+     * Song Bian<sup>&#42;</sup>, **Zhou Zhang<sup>&#42;</sup>**, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, and Zhenyu Guan
      * ACM Conference on Computer and Communications Security, _ACM CCS 2023_
+     * (&#42; Equal contribution.)
 
   * [DeepMIH: Deep Invertible Network for Multiple Image Hiding](https://ieeexplore.ieee.org/abstract/document/9676416)
      * Zhenyu Guan, Junpeng Jing, Xin Deng, Mai Xu, Lai Jiang, **Zhou Zhang**, Yipeng Li

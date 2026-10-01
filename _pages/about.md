@@ -64,7 +64,7 @@ redirect_from:
     </li>
     <li>
       <span class="publication-title">HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption</span>
-      <span class="publication-meta"><span class="publication-authors">Song Bian, <strong>Zhou Zhang</strong>, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, Zhenyu Guan</span><span class="publication-venue">ACM CCS, 2023 <span class="award-badge">Distinguished Paper Award</span></span></span>
+      <span class="publication-meta"><span class="publication-authors">Song Bian<sup>*</sup>, <strong>Zhou Zhang<sup>*</sup></strong>, Haowen Pan, Ran Mao, Zian Zhao, Yier Jin, Zhenyu Guan</span><span class="publication-venue">ACM CCS, 2023 <span class="award-badge">Distinguished Paper Award</span></span><span class="publication-contribution">(* Equal contribution.)</span></span>
       <span class="publication-links"><a href="https://eprint.iacr.org/2023/1446"><i class="fas fa-file-alt" aria-hidden="true"></i> Paper</a><a href="https://github.com/zhouzhangwalker/HE3DB"><i class="fab fa-github" aria-hidden="true"></i> Code</a></span>
     </li>
     <li>
