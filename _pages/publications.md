@@ -28,3 +28,5 @@ author_profile: true
   * [DeepMIH: Deep Invertible Network for Multiple Image Hiding](https://ieeexplore.ieee.org/abstract/document/9676416)
      * Zhenyu Guan, Junpeng Jing, Xin Deng, Mai Xu, Lai Jiang, **Zhou Zhang**, Yipeng Li
      * IEEE Transactions on Pattern Analysis and Machine Intelligence, _IEEE TPAMI 2023_
+
+{% include preprints.html %}

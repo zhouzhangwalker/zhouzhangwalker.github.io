@@ -1,0 +1,22 @@
+{% assign sorted_talks = site.talks | sort: "date" | reverse %}
+{% assign talk_groups = sorted_talks | group_by: "topic" %}
+<div class="talk-groups">
+  {% for group in talk_groups %}
+    <section class="talk-topic">
+      <h3>{{ group.items.first.title }}</h3>
+      <ul class="talks-list">
+        {% for post in group.items %}
+          <li>
+            <div class="talk-entry">
+              <div class="talk-details">
+                <span class="talk-venue">{{ post.short_venue | default: post.venue }}</span><span class="talk-location"> · {{ post.location }}</span>
+                {% if post.award %}<span class="award-badge">{{ post.award }}</span>{% endif %}
+              </div>
+              <time class="talk-date" datetime="{{ post.date | date: '%Y-%m' }}">{{ post.date | date: "%b %Y" }}</time>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</div>
